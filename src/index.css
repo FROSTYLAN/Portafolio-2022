@@ -4,8 +4,8 @@
     font-family: 'Ubuntu';
     --subtitle-color: #fff;
     --title-color: #fc4474;
-    --paragraph-color: #8e90a3;
-    --main-bg: #18142c;
+    --paragraph-color: #c4c5cf;
+    --main-bg: #14142c;
     --section-bg: #201c34;
 }
 
@@ -16,7 +16,36 @@
 }
 
 body {
+  color: #fff;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+section {
+  height: 100vh;
+  background-color: var(--main-bg);
+}
+nav {
+  background-color: var(--main-bg);
+}
+li{
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff
+}
+span {
+  color: var(--paragraph-color);
+  font-size: .9rem;
+}
+button {
+  background-color: var(--title-color);
+  color: #fff;
+  padding: 15px 25px;
+}
+b {
+  color: var(--title-color);
+  font-weight: 500;
 }

@@ -3,9 +3,9 @@ import '../styles/Work.css';
 
 const Work = () => {
     return (
-        <div className='Work'>
-            work
-        </div>
+        <section className='Work'>
+            <p>Work</p>
+        </section>
     );
 };
 

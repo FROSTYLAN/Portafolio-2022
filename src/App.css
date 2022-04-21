@@ -1,1 +1,18 @@
+.Nav {
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem 0 5rem;
+}
 
+ul {
+    display: flex;
+    font-display: row;
+    align-items: center;
+}
+
+li {
+
+    padding-right: 3rem;
+}

@@ -3,9 +3,9 @@ import '../styles/Connect.css';
 
 const Connect = () => {
     return (
-        <div className='Connect'>
-            connect
-        </div>
+        <section className='Connect'>
+            <p>Connect</p>
+        </section>
     );
 };
 
