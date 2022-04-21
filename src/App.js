@@ -1,11 +1,14 @@
 import './App.css';
+import { About, Connect, Intro, Nav, Work } from './components';
 
 function App() {
   return (
     <div className="App">
-      <h1>
-        fa
-      </h1>
+      <Nav />
+      <Intro />
+      <About />
+      <Work />
+      <Connect />
     </div>
   );
 }
