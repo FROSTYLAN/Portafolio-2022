@@ -1,18 +1,68 @@
 .Nav {
     width: 100vw;
+    height: 70px;
     position: fixed;
     display: flex;
     justify-content: space-between;
     padding: 0 5rem 0 5rem;
+    z-index: 5;
 }
-
+.nav figure {
+    height: 70px;
+}
 ul {
     display: flex;
     font-display: row;
     align-items: center;
 }
-
 li {
-
     padding-right: 3rem;
 }
+
+#menu {
+    position: absolute;
+    visibility: hidden;
+    margin-top: 19.98px;
+    right: 50px;
+}
+#menu i{
+    font-size: 30px;
+}
+input#menu {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 725px) {
+    .Nav {
+        padding: 0 2rem 0 2rem;
+    }
+}
+@media screen and (max-width: 570px) {
+    #menu {
+        visibility: visible;
+    }
+    
+    .nav-principal {
+        background-color: var(--main-bg);
+        width: 100%;
+        height: calc(100vh - 70px);
+        position: absolute;
+        top: 70px;
+        left: 100%;
+        transition: all 300ms linear;
+        z-index: 2;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .nav-principal li {
+        width: 100vw;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    input#menu:checked~ul {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 360px) {}

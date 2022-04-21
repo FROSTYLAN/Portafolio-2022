@@ -23,7 +23,7 @@ const Intro = () => {
                 </div>
             </div>
             <figure className='intro-img'>
-                <img src={introImg} alt="intro" />
+                <div><img src={introImg} alt="intro" /></div>
             </figure>
         </section>
     );
