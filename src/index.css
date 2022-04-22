@@ -44,8 +44,22 @@ button {
   background-color: var(--title-color);
   color: #fff;
   padding: 15px 25px;
+  border: none;
 }
 b {
   color: var(--title-color);
   font-weight: 500;
+}
+.title {
+  padding-top: 8rem;
+  margin-left: 7rem;
+  display: flex;
+  align-items: center;
+}
+.title div{
+  width: 60px;
+  margin-right: 20px;
+  height: 3px;
+  border-radius: 1.5px;
+  background-color: var(--title-color);
 }

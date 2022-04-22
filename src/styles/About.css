@@ -1,0 +1,31 @@
+.title {
+    margin-bottom: 2rem;
+}
+.about-container {
+    margin-left: 7rem;
+}
+.uno {
+    margin-left: 0rem;
+    padding-top: 3rem;
+}
+.uno div {
+    width: 30px;
+}
+.about-container h1 {
+    font-size: 2.8rem;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.dos {
+    max-width: 500px;
+}
+.button-container {
+    display: flex;
+    margin-top: 1.5rem;
+}
+.button{
+    margin-right: 1.5rem;
+}
+.tres {
+    background-color: var(--section-bg);
+}

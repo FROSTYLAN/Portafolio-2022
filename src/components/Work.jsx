@@ -4,7 +4,9 @@ import '../styles/Work.css';
 const Work = () => {
     return (
         <section className='Work'>
-            <p>Work</p>
+            <div className="title">
+                <div></div><p>Work</p>
+            </div>
         </section>
     );
 };
