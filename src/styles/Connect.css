@@ -43,6 +43,7 @@
     width: 100px;
     height: 100px;
     font-size: 3rem;
+    color: var(--title-color);
 }
 .fa-brands .fa-github{
     width: 100px;

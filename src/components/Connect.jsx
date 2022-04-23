@@ -29,9 +29,21 @@ const Connect = () => {
                 </div>
                 <br />
                 <div className='redes'>
-                    <div className="red"><i className="fa-brands fa-github"></i></div>
-                    <div className="red"><i className="fa-brands fa-linkedin"></i></div>
-                    <div className="red"><i className="fa-brands fa-youtube"></i></div>
+                    <div className="red">
+                        <a target="blank" href="https://github.com/FROSTYLAN">
+                            <i className="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                    <div className="red">
+                        <a target="blank" href="https://www.linkedin.com/in/charles-castillo-772968234/">
+                            <i className="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div className="red">
+                        <a target="blank" href="https://www.youtube.com/channel/UCeEolCunsX0h3Q7W0-b8EoQ">
+                            <i className="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div className="credit">
