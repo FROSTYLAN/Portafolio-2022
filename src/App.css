@@ -67,7 +67,7 @@ input#menu {
         font-size: 2.5rem;
         font-weight: 700;
     }
-    input#menu:checked~ul {
+    input.menu2:checked~ul {
         left: 0;
     }
 }

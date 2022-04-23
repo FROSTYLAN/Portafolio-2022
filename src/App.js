@@ -2,9 +2,10 @@ import './App.css';
 import { About, Connect, Intro, Work } from './components';
 import logo from './imgs/logo.png'
 import { Link } from 'react-scroll';
+import { useState } from 'react';
 
 function App() {
-  
+  const [nav, setNav] = useState(false);
   return (
     <div className="App">
 
@@ -15,15 +16,15 @@ function App() {
           </Link>
         </figure>
 
-        <input type="checkbox" id="menu" className="menu-input"/>
+        <input type="checkbox" onClick={() => setNav(true)} id='menu' className={nav ? "menu-input menu2" : "menu-input"}/>
           <label htmlFor="menu" id="menu">
             <i className="fa-solid fa-bars"></i>
           </label>
 
-        <ul className='nav-principal'>
-          <li><Link className='Link' to="work" smooth={true} duration={1000}>Work</Link></li>
-          <li><Link className='Link' to="about" smooth={true} duration={1000}>About</Link></li>
-          <li><Link className='Link' to="connect" smooth={true} duration={1000}>Connect</Link></li>
+        <ul className="nav-principal">
+          <li><Link onClick={() => setNav(false)} className='Link' to="work" smooth={true} duration={1000}>Work</Link></li>
+          <li><Link onClick={() => setNav(false)} className='Link' to="about" smooth={true} duration={1000}>About</Link></li>
+          <li><Link onClick={() => setNav(false)} className='Link' to="connect" smooth={true} duration={1000}>Connect</Link></li>
         </ul>
       </nav>
 
