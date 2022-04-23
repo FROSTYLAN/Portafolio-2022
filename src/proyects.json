@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "title": "Rick and Morti Wiki",
+        "description" : "Information page of Rick and Morty such as the dimensions, land and about the characters.",
+        "url" : "https://suspicious-noyce-8d49c2.netlify.app"
+    },
+    {
+        "id": "2",
+        "title": "E-COMMERCE",
+        "description": "Virtual technology store prototype consuming an API.",
+        "url": "https://cheerful-custard-1b973b.netlify.app"
+    },
+    {
+        "id": "3",
+        "title": "Pokédex",
+        "description": "Page that shows detailed information of each pokemon such as abilities, types and others.",
+        "url": "https://steady-licorice-49ae81.netlify.app"
+    },
+    {
+        "id": "4",
+        "title": "CRUDs Users",
+        "description": "User page that allows CRUD actions (CREATE, READ, UPDATE, DELETE).",
+        "url": "https://darling-liger-7a1bf7.netlify.app"
+    },
+    {
+        "id": "5",
+        "title": "Weather App",
+        "description": "Page that detects the weather, location and temperature of the user's area.",
+        "url": "https://priceless-williams-b9b8e3.netlify.app"
+    },
+    {
+        "id": "6",
+        "title": "Quotes App",
+        "description": "Page showing a random motivational phrase.",
+        "url": "https://vigorous-cori-b32810.netlify.app"
+    }
+]
