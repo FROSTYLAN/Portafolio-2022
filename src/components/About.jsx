@@ -34,9 +34,11 @@ const About = () => {
                         </button>
                     </div>
                     <div className='button'>
-                        <button className='tres'>
-                            download CV
-                        </button>
+                        <a target="blank" href="https://drive.google.com/file/d/1zo_iWRhfPTx-4MLahuL6xkdcy8Ax2C40/view?usp=sharing">
+                            <button className='tres'>
+                                download CV
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
