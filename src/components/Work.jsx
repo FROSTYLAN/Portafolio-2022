@@ -41,11 +41,11 @@ const Work = () => {
                     <br />
                     <div className='count'>
                         <button className='arrows' onClick={() => decrement()}>
-                            <i class="fa-solid fa-angle-left"></i>
+                            <i className="fa-solid fa-angle-left"></i>
                         </button>
                         <span className='count'>{`0${cont + 1}/06`}</span>
                         <button className='arrows' onClick={() => increment()}>
-                            <i class="fa-solid fa-angle-right"></i>
+                            <i className="fa-solid fa-angle-right"></i>
                         </button>
                     </div>
                     <br />

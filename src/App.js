@@ -4,6 +4,7 @@ import logo from './imgs/logo.png'
 import { Link } from 'react-scroll';
 
 function App() {
+  
   return (
     <div className="App">
 
@@ -14,9 +15,9 @@ function App() {
           </Link>
         </figure>
 
-        <input type="checkbox" id="menu" class="menu-input"/>
-          <label for="menu" id="menu">
-            <i class="fa-solid fa-bars"></i>
+        <input type="checkbox" id="menu" className="menu-input"/>
+          <label htmlFor="menu" id="menu">
+            <i className="fa-solid fa-bars"></i>
           </label>
 
         <ul className='nav-principal'>
@@ -30,6 +31,7 @@ function App() {
       <Work/>
       <About/>
       <Connect/>
+      
     </div>
   );
 }

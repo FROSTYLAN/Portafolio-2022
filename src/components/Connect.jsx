@@ -1,7 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/Connect.css';
+import emailjs from 'emailjs-com';
+
 
 const Connect = () => {
+    const [isOpen, setIsOpen] = useState(false);
+    function sendEmail(e) {
+        e.preventDefault();
+        emailjs.sendForm('service_5dkhvas', 'template_2dk552o', e.target, 'oWHU7ZsQZ6c-jPzmL').then(function (response) {
+            console.log('SUCCESS!', response.status, response.text);
+        }, function (error) {
+            console.log('FAILED...', error);
+        });
+        e.target.reset();
+    }
+    const buttonForm = () => {
+        setIsOpen(false);
+    }
     return (
         <section className='Connect'>
             
@@ -23,10 +38,43 @@ const Connect = () => {
                 </div>
                 <div className='space'></div>
                 <div className='button'>
-                    <button>
+                    <button onClick={() => setIsOpen(!isOpen)}>
                         Get in touch
                     </button>
                 </div>
+
+                <article className={`modal ${isOpen && "is-open"}`}>
+                    <form className="form-container" id="myForm" onSubmit={sendEmail} >
+                        <div onClick={() => buttonForm()} className="modal-close">
+                            <i className="fa-solid fa-circle-xmark"></i>
+                        </div>
+
+                        <div className="input-container">
+                            <label htmlFor="name">Name</label>
+                            <input type="text" name="name" id="name"/>
+                        </div>
+
+                        <div className="input-container">
+                            <label htmlFor="email">Email</label>
+                            <input type="text" name="email" id="email"/>
+                        </div>
+
+                        <div className="input-container">
+                            <label htmlFor="phone">Phone</label>
+                            <input type="text" name="phone" id="phone"/>
+                        </div>
+
+                        <div className="input-container">
+                            <label htmlFor="message">Message</label>
+                            <textarea id="message" name="message" cols="30" rows="5"></textarea>
+                        </div>
+
+                        <div className="submit">
+                            <button type="submit" onClick={() => buttonForm()}>Submit</button>
+                        </div>
+                    </form>
+                </article>
+
                 <br />
                 <div className='redes'>
                     <div className="red">
