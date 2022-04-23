@@ -27,6 +27,16 @@ const Connect = () => {
                         Get in touch
                     </button>
                 </div>
+                <br />
+                <div className='redes'>
+                    <div className="red"><i className="fa-brands fa-github"></i></div>
+                    <div className="red"><i className="fa-brands fa-linkedin"></i></div>
+                    <div className="red"><i className="fa-brands fa-youtube"></i></div>
+                </div>
+            </div>
+            <div className="credit">
+                <h3>Made by Charles Castillo</h3>
+                <span>© Copyright 2022</span>
             </div>
         </section>
     );
