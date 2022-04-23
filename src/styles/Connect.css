@@ -4,8 +4,8 @@
 .title {
     margin-bottom: 2rem;
 }
-.connect-container{
-    margin-left: 7rem;
+.connect-container {
+    padding: 0 7rem;
 }
 .connect-container h1 {
     font-size: 2.8rem;
@@ -26,4 +26,16 @@
 }
 .red {
     color: var(--title-color);
+}
+
+@media screen and (max-width: 725px) {
+    .connect-container {
+        padding: 0 4rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .connect-container {
+        padding: 0 1rem;
+    }
 }

@@ -4,10 +4,11 @@ import '../styles/Connect.css';
 const Connect = () => {
     return (
         <section className='Connect'>
-            <div className="title">
-                <div></div><p>Connect</p>
-            </div>
+            
             <div className='connect-container'>
+                <div className="title">
+                    <div></div><p>Connect</p>
+                </div>
                 <div>
                     <h1>Interested in working with me</h1>
                     <h1>or perhaps just talk?</h1>
