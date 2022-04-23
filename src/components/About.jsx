@@ -29,7 +29,7 @@ const About = () => {
                 </div>
                 <div className='button-container'>
                     <div className='button'>
-                        <a target="blank" href="https://drive.google.com/file/d/1zo_iWRhfPTx-4MLahuL6xkdcy8Ax2C40/view?usp=sharing">
+                        <a target="blank" href="https://drive.google.com/file/d/1oHl8FBiLrI_fAsBFpYRqjls3HrkI5cPN/view?usp=sharing">
                             <button>
                                 download CV
                             </button>
