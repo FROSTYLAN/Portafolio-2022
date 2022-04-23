@@ -47,6 +47,10 @@
     font-size: 3rem;
     color: var(--title-color);
 }
+.red i:hover{
+    color: #fff;
+    transition: 1s;
+}
 .fa-brands .fa-github{
     width: 100px;
     height: 100px;

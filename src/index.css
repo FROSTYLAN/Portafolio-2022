@@ -45,6 +45,7 @@ button {
   color: #fff;
   padding: 15px 25px;
   border: none;
+  cursor: pointer;
 }
 b {
   color: var(--title-color);
