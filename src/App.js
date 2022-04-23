@@ -1,6 +1,7 @@
 import './App.css';
 import { About, Connect, Intro, Work } from './components';
 import logo from './imgs/logo.png'
+import { Link } from 'react-scroll';
 
 function App() {
   return (
@@ -8,9 +9,9 @@ function App() {
 
       <nav className='Nav'>
         <figure>
-          <a href="/">
+          <Link className='Link' to="intro" smooth={true} duration={1000}>
             <img src={logo} alt="logo" width="70px" />
-          </a>
+          </Link>
         </figure>
 
         <input type="checkbox" id="menu" class="menu-input"/>
@@ -19,16 +20,16 @@ function App() {
           </label>
 
         <ul className='nav-principal'>
-          <li><a href="#Work">Work</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Connect">Connect</a></li>
+          <li><Link className='Link' to="work" smooth={true} duration={1000}>Work</Link></li>
+          <li><Link className='Link' to="about" smooth={true} duration={1000}>About</Link></li>
+          <li><Link className='Link' to="connect" smooth={true} duration={1000}>Connect</Link></li>
         </ul>
       </nav>
 
       <Intro/>
-      <Work id="Work"/>
-      <About id="About"/>
-      <Connect name="Connect"/>
+      <Work/>
+      <About/>
+      <Connect/>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import introImg from '../imgs/intro-img.png'
 
 const Intro = () => {
     return (
-        <section className='Intro'>
+        <section className='Intro' id='intro'>
             <div className='presentation'>
                 <div className='iam'>
                     <h1>Hey, I'm <b>Charles</b></h1>

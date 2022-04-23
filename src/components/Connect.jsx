@@ -5,7 +5,7 @@ const Connect = () => {
     return (
         <section className='Connect'>
             
-            <div className='connect-container'>
+            <div className='connect-container' id='connect'>
                 <div className="title">
                     <div></div><p>Connect</p>
                 </div>

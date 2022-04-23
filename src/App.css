@@ -18,6 +18,13 @@ ul {
 li {
     padding-right: 3rem;
 }
+.Link {
+    cursor: pointer;
+}
+.Link:hover{
+    color: var(--title-color);
+    transition: 1s;
+}
 
 #menu {
     position: absolute;
