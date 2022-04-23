@@ -17,9 +17,11 @@ const Intro = () => {
                     </span>
                 </div>
                 <div className='button'>
-                    <button>
-                        See my work
-                    </button>
+                    <a target="blank" href='https://github.com/FROSTYLAN'>
+                        <button>
+                            See my work
+                        </button>
+                    </a>
                 </div>
             </div>
             <figure className='intro-img'>
