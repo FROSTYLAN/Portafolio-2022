@@ -8,7 +8,9 @@ function App() {
 
       <nav className='Nav'>
         <figure>
-          <img src={logo} alt="logo" width="70px"/>
+          <a href="/">
+            <img src={logo} alt="logo" width="70px" />
+          </a>
         </figure>
 
         <input type="checkbox" id="menu" class="menu-input"/>
