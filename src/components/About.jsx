@@ -17,9 +17,7 @@ const About = () => {
           <p>Skill & Tools</p>
         </div>
         <div className="span">
-          <span>
-            HTML/CSS, JavaScript, React, NodeJS, Express, Postgress, Photoshop
-          </span>
+          <span>HTML/CSS, JavaScript, React, NodeJS, Express, Postgress</span>
         </div>
         <div className="title uno">
           <div></div>
