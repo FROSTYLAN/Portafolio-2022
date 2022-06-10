@@ -1,16 +1,45 @@
 .title {
-    margin-bottom: 2rem;
-    margin-left: 0rem;
+  margin-bottom: 2rem;
+  margin-left: 0rem;
 }
 .About {
-    padding: 0 7rem;
+  padding: 0 7rem;
+}
+.About article {
+  display: flex;
+}
+.About article .about-container:nth-child(2) {
+  padding-left: 6rem;
 }
 .uno {
-    margin-left: 0rem;
-    padding-top: 3rem;
+  margin-left: 0rem;
+  padding-top: 3rem;
 }
 .uno div {
-    width: 30px;
+  width: 30px;
+}
+
+.skills {
+  padding-left: 3rem;
+}
+
+.chart {
+  margin-bottom: 2rem;
+  padding-right: 3rem;
+}
+.chart span {
+  font-size: 15px;
+  margin-bottom: 12px;
+  display: block;
+}
+.chart footer {
+  background-color: #b9b8b8;
+  height: 2px;
+  max-width: 500px;
+}
+.chart footer div {
+  height: 100%;
+  background-color: var(--title-color);
 }
 /*
 .about-container h1 {
@@ -20,27 +49,39 @@
 }
 */
 .dos {
-    max-width: 500px;
+  max-width: 500px;
 }
 .button-container {
-    display: flex;
-    margin-top: 1.5rem;
+  display: flex;
+  margin-top: 1.5rem;
 }
-.button{
-    margin-right: 1.5rem;
+.button {
+  margin-right: 1.5rem;
 }
 .tres {
-    background-color: var(--section-bg);
+  background-color: var(--section-bg);
 }
 
-@media screen and (max-width: 725px) {
-    .About {
-        padding: 0 4rem;
-    }
+@media screen and (min-width: 1200px) {
+  .chart footer {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .About article {
+    flex-direction: column;
+  }
+  .About article .about-container:nth-child(2) {
+    padding-left: 0rem;
+  }
+  .About {
+    padding: 0 4rem;
+  }
 }
 
 @media screen and (max-width: 520px) {
-    .About {
-        padding: 0 1rem;
-    }
+  .About {
+    padding: 0 1rem;
+  }
 }

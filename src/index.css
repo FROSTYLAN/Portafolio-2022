@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap");
 
 :root {
-    font-family: 'Ubuntu';
-    --subtitle-color: #fff;
-    --title-color: #fc4474;
-    --paragraph-color: #c4c5cf;
-    --main-bg: #14142c;
-    --section-bg: #201c34;
+  font-family: "Ubuntu";
+  --subtitle-color: #fff;
+  --title-color: #fc4474;
+  --paragraph-color: #c4c5cf;
+  --main-bg: #14142c;
+  --section-bg: #201c34;
 }
 
 * {
@@ -23,22 +23,22 @@ body {
 }
 
 section {
-  height: 100vh;
+  min-height: 100vh;
   background-color: var(--main-bg);
 }
 nav {
   background-color: var(--main-bg);
 }
-li{
+li {
   list-style: none;
 }
 a {
   text-decoration: none;
-  color: #fff
+  color: #fff;
 }
 span {
   color: var(--paragraph-color);
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 button {
   background-color: var(--title-color);
@@ -57,7 +57,7 @@ b {
   display: flex;
   align-items: center;
 }
-.title div{
+.title div {
   width: 60px;
   margin-right: 20px;
   height: 3px;
@@ -77,7 +77,7 @@ h1 {
     display: flex;
     justify-content: center;
   }
-  .title{
+  .title {
     padding-top: 4rem;
   }
   .Intro .intro-img img {
@@ -111,7 +111,6 @@ h1 {
   }
 
   span {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
-  
 }
