@@ -1,38 +1,37 @@
 [
-    {
-        "id": "1",
-        "title": "Rick and Morti Wiki",
-        "description" : "Information page of Rick and Morty such as the dimensions, land and about the characters.",
-        "url" : "https://suspicious-noyce-8d49c2.netlify.app"
-    },
-    {
-        "id": "2",
-        "title": "E-COMMERCE",
-        "description": "Virtual technology store prototype consuming an API.",
-        "url": "https://cheerful-custard-1b973b.netlify.app"
-    },
-    {
-        "id": "3",
-        "title": "Pokédex",
-        "description": "Page that shows detailed information of each pokemon such as abilities, types and others.",
-        "url": "https://steady-licorice-49ae81.netlify.app"
-    },
-    {
-        "id": "4",
-        "title": "CRUDs Users",
-        "description": "User page that allows CRUD actions (CREATE, READ, UPDATE, DELETE).",
-        "url": "https://darling-liger-7a1bf7.netlify.app"
-    },
-    {
-        "id": "5",
-        "title": "Weather App",
-        "description": "Page that detects the weather, location and temperature of the user's area.",
-        "url": "https://priceless-williams-b9b8e3.netlify.app"
-    },
-    {
-        "id": "6",
-        "title": "Quotes App",
-        "description": "Page showing a random motivational phrase.",
-        "url": "https://vigorous-cori-b32810.netlify.app"
-    }
+  {
+    "id": "1",
+    "title": "E-COMMERCE",
+    "description": "Virtual technology store prototype consuming an API.",
+    "url": "https://cheerful-custard-1b973b.netlify.app",
+    "img": "https://lh3.googleusercontent.com/pw/AM-JKLVq80zh8zWmM_7LNrTOe5yvtQyllxVmJIQi1ciEKVkAtVe6BLGNBwFIS7sMk4su9KKv7yEwliohK1VJexoaWS3rjnOfeolRGiDccKGhNMHWpXabIAOOFfZSKDfyzPDtTwrtIBsoFCxVWVcTwCXOSnU=s600-no?authuser=0"
+  },
+  {
+    "id": "2",
+    "title": "Pokédex",
+    "description": "Page that shows detailed information of each pokemon such as abilities, types and others.",
+    "url": "https://steady-licorice-49ae81.netlify.app",
+    "img": "https://lh3.googleusercontent.com/4AEW3PgKPZIRMmEAwYd6pA1UPHlmWOHinNbxL-L7JzqgOmkD_mXGQUvpKVKaQndLliJslVmRkSu-Fg2YsCE0rQ-rXeSJDFYhtlEhsJRhzgG0QtCrLYoKT0jl7ctJO-Tqs9GmEll-JnDSWo2uiDMuHWasd4BWS4pdA91aIDqGOI4JwVP7VrwNkCqN8vV_ItdgwOMNwIPmTKMkxeH7YKKehEdP9smlFyEmC-Jg2GZs7xzsakmxwRkbE5sKjVmcXNfG7DEvt5z6qqqKermc-6Zxg13ez0Id98kYmQ2EWt35l2cKpjXPanoJs6wme59V4wX0SWOSgiEBOf-jNNyyydgrh9dPkMfSFGZrjkEPcrFaksyDM8WKaD7n0gapX9tcKhtBRTAllee5qZklVC6pj7nSGG_E4zl0R4mUCbX6oTrvjBHG6HGf7HcgPaSWo-98vjq_FiLWq3J4E6cUlyJSlsupWgiOX-hikLtkzOZnFJKo_uFNjkpOK3enp0jxOm7rE64vJ77Z4FA7urwasJ2efV__S9HuF6UySycMpGzQCLTIavf1pKObA80MF6RpfB0O3dxPWmY4KIvJUfP3w4_RQvaWkzSR1_km73D9_ZcN1rSvAVVKQq3suM1LanNbsE02Y4BhRSgtJgyYgVG_IVYDbKWUAr-A-RPcfehZY-o-NRJvJe6Xe1ShVQUCOMVEjNF6eS_wcH0Aa9idaEt4lLOw2zol2JzVmYA0MQaW_tJLkyFv_Ld0An02Vt6QJI5rVxk34pzpY4-rIXuC6iHLkYRt5G_1yM9FFDGC4ZM=s600-no?authuser=0"
+  },
+  {
+    "id": "3",
+    "title": "Rick and Morti Wiki",
+    "description": "Information page of Rick and Morty such as the dimensions, land and about the characters.",
+    "url": "https://suspicious-noyce-8d49c2.netlify.app",
+    "img": "https://lh3.googleusercontent.com/in7Lo040h5dN3KyzJbUDpqoLOOtOwImIsAKylIPinbob8ZgQiJSW-Rbjqm-KxAT0JPzHPmhc__UYTFlwP4-NdHKVLj7wwgcfIFv-qE1QvmIkjLjO0mEgkdJUsEkz-hSPMpjdrtE6qHo-WNeRtuCphZYXuCkUkh8LnceB2gOpccbNGtfEQHFa3ES7TIvsZgNg53xpaJC0S2sS-zpKKNtmYHldnvEe60HNI5DyZXBsy0GYJ4sYoRiwPsd5ljaiePqURgnDnx3y51h_-gh3KvMqN8MNSqAK8yaRy9f4lDi9r_Q5rJ19XcX2E_ZtbPOV6HuhWOrCYmiQFBKF8li5CxL1HNV703QIBY8kUPNsihojXHnFGftNvbukmlRhd7aj-pD1SbtefLJ7rmkAtc8YzG98dpqgSuVb4uBdsDAuUyjEN_YOkOpLOfZ3J6uGSdwpib0Fpy5bF0Vy-S07x5uTywXP6wk9Gqf8Firym0S0Sm-zaLuZQ1tWXv4uI9Vcfyt__J2EfQLn_0dIrw2sJh431I3gkh0bqsriNqSv5eQAfAkKnrJyuFweZOgQjtfytBxapcoI47vvJlYVvhx0WMfGKNoUHJ_0tCjRkpLQWcvS3001NJ29W11P9Z-5ppxw32Mhnonb1hnd0IzwGdkNgOZv-cthUIyA4yvfJkueVyK6bmiDixpruR5j9SGdDxFOLD5akJslHeSHg4XtxSwTM_gYiMNS64EPzyj94LUtmkMvHcoPm5KwusYXQ5IjWTZrLRMD-QhHzulMnN7XjNckiJWCMFhpcZbKNYee-tc=s600-no?authuser=0"
+  },
+  {
+    "id": "4",
+    "title": "Weather App",
+    "description": "Page that detects the weather, location and temperature of the user's area.",
+    "url": "https://priceless-williams-b9b8e3.netlify.app",
+    "img": "https://lh3.googleusercontent.com/Hz05VDKDFIo9DnQMmfpwnw18LmASEnd4PHwgMY_WFb374ycp52Iby7g1iTsvQJVjkbvgHrz2zEsAlrYBHgewq6Ddk1IvuwhTFRoRh7lDSovb6R0QhMjfgf-wLYTfDfuPxXLj9gzsGVKtuC1sIKfJKPjtwKPPn1PjrGLv8FyRyQ-6FBGFJS0gdoROpxflOxw43tzPC4Q-vS7x54tOCpTBs96esxbTB56aJCOV8WqrWo2_0K4LVyC66mOJ_usDjZkN6JzSt8FhY7vzcBG4AfjkEWGs8bnkVeXrFUGo5OnyqQMzZwQyYLtkthMF-rYvIZVTMQVMxoX-hhiFWqQX2XhBhHSoIgSX92mEuQWReD0wNGxP8jLabPQMdwPj7vvTfSlPsJF7GtmZFRqI1qnhYaMR-q_3OE5rargwb_xyZl7DPmU1PpcY37XSTqokOJdGingRT2ohU31u_ikiC5VAV1wUv4zh7EtTKFWgz0PqDoX6VQF5hhHiKorwffNkS2dNmtowVSt9sC5dHD_MQlWYyi6CAZgREuh8uEgxOvnowZKqEmYYed_CJUs3blzPO1QnwxetPqIy-EQ-5czqoMCA_zTKoKAgnfhmV_bk_ywB3qUjEsTV46QZvXycXLZRFLBq2FwvrDh4I2vNpweSUidCRKPmkQ5FUUSFYBso-TWpz3czrJlOijF8EviZOexQCEPqawPj9mo16nDWfjXA4cLDoXZWXOCJR-MFwPPY14wRfmJQ3CScwF4taQT6n7ZiwojfA0xcu0LabVd7Gx0Fa9-l8NIvgJKw2A2ppio=s600-no?authuser=0"
+  },
+  {
+    "id": "5",
+    "title": "CRUDs Users",
+    "description": "User page that allows CRUD actions (CREATE, READ, UPDATE, DELETE).",
+    "url": "https://darling-liger-7a1bf7.netlify.app",
+    "img": "https://lh3.googleusercontent.com/2T9n-q9Nnsqah_FS1nK1YcNS42xAOYZ-jnxG6JUxrZZPI0b4GiR8_OEOnMUfUrH9yfCWHTWQK1d-3TN5mW8zjaDlMHletJ89g4-eOkzSU_eUxZ8d89Glvhl_yIh3M5eeXEIkQc79fi4E9-RzwaBnI0PWoSGQkCDdSzvkX1d947YYKmTtJoZsYZgTVS0GfbEsDZxliRNJsH0AiB-h8TPwU7Yy6hI97ZGdi7H9G_YKclEgiXHouz1M9NUfl_28sdXtnCa7rtn9q39jiQy8-a8X4OGufWnTBev8ko0-W1uxsMJuaEAZzIH7gbd5vbr3GXpXLDStacTFWkF2u9eDOLhm_WfIqk-ms7o_jzDTMYgOmNE9j85B2nbqviSBcJtMWwdPCMZSjnz2-gR433juQCxik5EYtQi0TwshATcLIBUHzhe2MJZBON1RetStPrtLK8wdoUcnKDWi-qqNCLHsY0OCZVwYvMUG0q-uhW0zVKzM_yweIlKHA45flCjbxFAWHFYqnLSbvkZXjVa_CrDtnHP0jmZib6ON5H7n8YdyEYNwbIb0QpCIyGs0ZHnk3tVS-xWspBUHyeSa5IzGF33hqstCpGdoWKQRk5HutG_-YL256OIqRckJRe_q0Me_L2FkCxnyKWqlNf9h8FVrhnUivjbXpaM9saPKh_eF3qIGkbVAnIW7iQ6JL2GiZ3Vyf0OepnxSgZeLeyt1ntsPxFCmZaIfZe08G13JBKt9Qz96r9Qcszspn98OqL_lfHMrlDmC224iUYIH-7j_lpF517FdZCoBvv1LuPGCDQs=s600-no?authuser=0"
+  }
 ]
