@@ -1,39 +1,40 @@
 import React from "react";
 import "../styles/About.css";
 
-const About = () => {
+const About = ({ language }) => {
   return (
     <section className="About" id="about">
       <div className="title">
         <div></div>
-        <p>About</p>
+        <p>{language ? "About" : "Sobre mí"}</p>
       </div>
       <div>
-        <h1>Get a closer look at who i am</h1>
+        <h1>
+          {language
+            ? "Get a closer look at who i am"
+            : "Conoce más de cerca quién soy"}
+        </h1>
       </div>
       <article>
         <div className="about-container">
           <div className="title uno">
             <div></div>
-            <p>Who am I</p>
+            <p>{language ? "Who am I" : "Quién soy"}</p>
           </div>
           <div className="span dos">
             <span>
-              Front end developer with knowledge in HTML, CSS, Javascript and
-              React I like programming and design, I am proactive, responsible,
-              persistent and self-taught. I am passionate about technology in
-              general. I like to experiment, innovate, solve problems
-              effectively, keep learning new things and reinforce the ones I
-              already have.
+              {language
+                ? "Full Stack Developer with knowledge in HTML, CSS, Bootstrap, Javascript and React on the front-end side and node.js, express, postgresSQL on the back-end side. I like programming and design, I am proactive, responsible, persistent and self-taught. I am passionate about technology in general. I like to experiment, innovate, solve problems effectively, keep learning new things and reinforce the ones I already have."
+                : "Desarrollador Fullstack con conocimientos en HTML, CSS, Boostrap, Javascript y React en el lado del front-end  y node.js, express, postgresSQL en el lado del back-end. Me gusta la programación y el diseño, soy proactiva, responsable, persistente y autodidacta. Soy un apasionado de la tecnología en general. Me gusta experimentar, innovar, resolver problemas efectivamente, seguir aprendiendo cosas nuevas y reforzar las que ya tengo."}
             </span>
           </div>
           <div className="button-container">
             <div className="button">
               <a
                 target="blank"
-                href="https://drive.google.com/file/d/1oHl8FBiLrI_fAsBFpYRqjls3HrkI5cPN/view?usp=sharing"
+                href="https://drive.google.com/u/0/uc?id=1oHl8FBiLrI_fAsBFpYRqjls3HrkI5cPN&export=download"
               >
-                <button>download CV</button>
+                <button>{language ? "download CV" : "descargar CV"}</button>
               </a>
             </div>
           </div>
@@ -41,7 +42,7 @@ const About = () => {
         <div className="about-container">
           <div className="title uno">
             <div></div>
-            <p>Skill & Tools</p>
+            <p>{language ? "Skills & Tools" : "Habilidades"}</p>
           </div>
           <div className="skills">
             <div class="chart">
@@ -92,6 +93,16 @@ const About = () => {
               </span>
               <footer>
                 <div data-width="95%" style={{ width: "72%" }}></div>
+              </footer>
+            </div>
+            <div class="chart">
+              <span>
+                <font>
+                  <font>Git y GitHub</font>
+                </font>
+              </span>
+              <footer>
+                <div data-width="95%" style={{ width: "95%" }}></div>
               </footer>
             </div>
           </div>

@@ -8,12 +8,23 @@ const Intro = ({ language }) => {
       <div className="presentation">
         <div className="iam">
           <h1>
-            Hey, I'm <b>Charles</b>
+            {language ? "Hey, I'm " : "Hola soy "} <b>Charles</b>
           </h1>
-          <h3>
-            a <b>self-taught</b> designer
-          </h3>
-          <h3>& front-end developer.</h3>
+          {language ? (
+            <>
+              <h3>
+                a <b>web</b> development
+              </h3>
+              <h3>specialized in front-end</h3>
+            </>
+          ) : (
+            <>
+              <h3>
+                un desarrollador <b>web</b>
+              </h3>
+              <h3>especializado en front-end</h3>
+            </>
+          )}
         </div>
         <div className="span">
           <span>
