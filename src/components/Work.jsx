@@ -5,7 +5,7 @@ import projects from "../proyects.json";
 const Work = ({ language }) => {
   const [cont, setCont] = useState(0);
   const increment = () => {
-    if (cont < 4) {
+    if (cont < 3) {
       setCont(cont + 1);
     }
   };
@@ -34,7 +34,7 @@ const Work = ({ language }) => {
             <button className="arrows" onClick={() => decrement()}>
               <i className="fa-solid fa-angle-left"></i>
             </button>
-            <span className="count">{`0${cont + 1}/05`}</span>
+            <span className="count">{`0${cont + 1}/04`}</span>
             <button className="arrows" onClick={() => increment()}>
               <i className="fa-solid fa-angle-right"></i>
             </button>
