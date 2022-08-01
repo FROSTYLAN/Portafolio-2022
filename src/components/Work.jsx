@@ -57,6 +57,9 @@ const Work = ({ language }) => {
               <a target="blank" href={projects[cont].url}>
                 <button>{language ? "View Project" : "Ver proyecto"}</button>
               </a>
+              <a target="blank" href={projects[cont].github}>
+                <button>{language ? "View Code" : "Ver código"}</button>
+              </a>
             </div>
           </div>
         </div>

@@ -34,7 +34,7 @@ const About = ({ language }) => {
             <div className="button">
               <a
                 target="blank"
-                href="https://drive.google.com/u/0/uc?id=1oHl8FBiLrI_fAsBFpYRqjls3HrkI5cPN&export=download"
+                href="https://drive.google.com/u/0/uc?id=11saS1y3QUBV0jCJryCpiDe09r2d35BUE&export=download"
               >
                 <button>{language ? "download CV" : "descargar CV"}</button>
               </a>

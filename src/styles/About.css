@@ -75,9 +75,14 @@
 .button-container {
   display: flex;
   margin-top: 1.5rem;
+  display: inline-block;
 }
 .button {
   margin-right: 1.5rem;
+  display: inline-block;
+}
+.Work .project .button a:nth-child(2) {
+  margin-left: 1rem;
 }
 .tres {
   background-color: var(--section-bg);
