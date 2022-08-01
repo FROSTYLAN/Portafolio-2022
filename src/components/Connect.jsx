@@ -56,7 +56,11 @@ const Connect = ({ language }) => {
         </div>
         <div className="span">
           <span>{language ? "email to" : "correo a"} </span>
-          <span className="red">castillo089frosty@gmail.com</span>
+          <span>
+            <a className="red" href="mailto:castillo089frosty@gmail.com">
+              castillo089frosty@gmail.com
+            </a>
+          </span>
         </div>
         <div className="space"></div>
         <div className="button">

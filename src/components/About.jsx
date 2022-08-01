@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/About.css";
+import academlo from "../imgs/academlo-icon.png";
+import platzi from "../imgs/platzi-icon.png";
 
 const About = ({ language }) => {
   return (
@@ -38,6 +40,26 @@ const About = ({ language }) => {
               </a>
             </div>
           </div>
+          <div className="title uno">
+            <div></div>
+            <p>{language ? "Studies" : "Estudios"}</p>
+          </div>
+          <div className="studies">
+            <a
+              href="https://certificates.academlo.com/en/credentials/charlescastillo814004"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={academlo} alt="academlo-icon" />
+            </a>
+            <a
+              href="https://platzi.com/p/FROSTY/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={platzi} alt="platzi-icon" />
+            </a>
+          </div>
         </div>
         <div className="about-container">
           <div className="title uno">
@@ -62,7 +84,7 @@ const About = ({ language }) => {
                 </font>
               </span>
               <footer>
-                <div data-width="95%" style={{ width: "80%" }}></div>
+                <div data-width="95%" style={{ width: "85%" }}></div>
               </footer>
             </div>
             <div class="chart">
@@ -82,7 +104,7 @@ const About = ({ language }) => {
                 </font>
               </span>
               <footer>
-                <div data-width="95%" style={{ width: "82%" }}></div>
+                <div data-width="95%" style={{ width: "95%" }}></div>
               </footer>
             </div>
             <div class="chart">
@@ -102,7 +124,7 @@ const About = ({ language }) => {
                 </font>
               </span>
               <footer>
-                <div data-width="95%" style={{ width: "95%" }}></div>
+                <div data-width="95%" style={{ width: "90%" }}></div>
               </footer>
             </div>
           </div>

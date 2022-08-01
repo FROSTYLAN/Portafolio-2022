@@ -48,6 +48,27 @@
     padding-bottom: 5px;
 }
 */
+.about-container .studies {
+  background-color: var(--section-bg);
+  margin-bottom: 3rem;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-container .studies img {
+  display: block;
+  width: 50px;
+  cursor: pointer;
+}
+.about-container .studies a {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.about-container .studies a:hover {
+  border-top: 3px solid var(--title-color);
+}
 .dos {
   max-width: 500px;
 }

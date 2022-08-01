@@ -40,13 +40,21 @@ span {
   color: var(--paragraph-color);
   font-size: 0.9rem;
 }
+/* background-color: var(--title-color); */
 button {
-  background-color: var(--title-color);
-  color: #fff;
+  color: var(--title-color);
+  background: none;
   padding: 15px 25px;
-  border: none;
+  border: 2px solid var(--title-color);
   cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
+button:hover {
+  background-color: var(--title-color); /* Green */
+  color: white;
+}
+
 b {
   color: var(--title-color);
   font-weight: 500;

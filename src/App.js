@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <nav className="Nav">
         <figure>
-          <Link className="Link" to="intro" smooth={true} duration={1000}>
+          <Link className="Link" to="intro" smooth={true} duration={500}>
             <img src={logo} alt="logo" width="70px" />
           </Link>
         </figure>

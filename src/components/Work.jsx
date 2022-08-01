@@ -42,8 +42,15 @@ const Work = ({ language }) => {
           <br />
           <div className="project">
             <h3>{projects[cont].title}</h3>
+            <br />
             <div className="span">
               <span>{projects[cont].description}</span>
+            </div>
+            <br />
+            <div className="tech">
+              {projects[cont].technology.map((tech) => {
+                return <span className="tech-item">{tech}</span>;
+              })}
             </div>
             <br />
             <div className="button">
